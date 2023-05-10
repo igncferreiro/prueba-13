@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+  <meta charset="UTF-8">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    /* Estilos CSS personalizados */
+    body {
+      margin: 0;
+      font-family: 'Archivo', sans-serif;
+    }
+    p {
+      font-family: 'Archivo', sans-serif;
+      margin-left: 5%;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 2rem;
+    }
+    @media screen and (min-width: 401px) {
+        #my-wrapper {
+            margin-left: 35vw;
+            width: 60vw;
+        }
+        .fl-scrolly-step {
+            margin-left: -30vw !important;
+            width: 25vw !important;
+        }
+    }
+    @media screen and (max-width: 400px) {
+        #my-wrapper {
+            margin-left: 35vw;
+            width: 60vw;
+        }
+        .fl-scrolly-step {
+            margin-left: -30vw !important;
+            width: 25vw !important;
+        }
+    }
+    
+  </style>
+</head>
+<body>
+    <!-- This is a wrapper around the scrolly in case you want to apply extra styling (see Step 6 in the help doc) -->
+<div id="my-wrapper">
+ 
+    <!--  Drop your choice of Flourish embed code - you can use either the script or iframe embed codes here -->
+    <div class="flourish-embed" data-src="story/1891328" data-url="https://flo.uri.sh/story/1891328/embed" data-height="80vh"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+     
+    <!-- Here is where you add your captions, linking them to specific slides in the story -->
+    <p>El 1° de marzo hubo en promedio 171 mil usuarios de Edesur afectados por los cortes de luz.<a href="#story/1891328/slide-1"></a></p>
+
+    <p>Además, este verano hubo más cortes que el anterior: el doble de usuarios fueron afectados en el peor corte de esta temporada.<a href="#story/1891328/slide-2"></a></p>
+     
+    <p>¿Pero qué zonas fueron las más afectadas y en qué fechas?<a href="#story/1891328/slide-3"></a></p>
+     
+    <p>Este mapa muestra los cortes de luz durante el verano. Los datos se tomaron durante los días hábiles a las 16:30. <a href="#story/1891328/slide-4"></a></p>
+      
+    <p>Los cortes se concentraron en el <b>febrero y marzo.</b> <a href="#story/1891328/slide-5"></a></p>
+      
+    <p>Las localidades del <b>sur del AMBA</b> fueron las más afectadas por los cortes de luz. La zona corresponde a Edesur.<a href="#story/1891328/slide-6"></a></p>
+
+    <p>Quilmes fue la localidad más afectada. Durante la primera quincena de marzo hubo muchos cortes en la zona.<a href="#story/1891328/slide-8"></a></p>
+
+    <p>En Solano hubo usuarios sin energía durante 4 días seguidos.<a href="#story/1891328/slide-9"></a></p>
+
+    <p>Balvanera fue el barrio de la Ciudad más afectado, con cortes masivos en marzo.<a href="#story/1891328/slide-10"></a></p>
+
+    <p>Este verano Edesur afectó a más usuarios que Edenor.<a href="#story/1891328/slide-11"></a></p>
+
+    <p>El 15 de marzo, Edenor registró menos de 2 mil usuarios sin luz en la Ciudad, la mitad de ellos en Palermo.<a href="#story/1891328/slide-12"></a></p>
+    
+    <p>En cambio, 17 mil porteños usuarios de Edesur no tuvieron luz en ese mismo momento.<a href="#story/1891328/slide-12"></a></p>
+
+    <p>Explorá el mapa en Chequeado.com y revisá que pasó en cada zona del AMBA.<a href="#story/1891328/slide-15"></a></p>
+
+    </div>
+     
+    <!-- Add the Flourish Scrolly library -->
+    <script src="https://cdn.flourish.rocks/flourish-scrolly-v3.1.0.min.js" type="text/javascript"></script>
+     
+    <!-- Initialize the library to turn your story into scrolly magic! -->
+    <script>
+        initFlourishScrolly({
+            trigger_point: "20%",
+            offset_top: "100px",
+            step_styles: {
+                background: "#fbfbfb",
+                fontSize: "20px",
+                color:"#354052"                
+            }
+        });
+        </script>
+</body>
+</html>
